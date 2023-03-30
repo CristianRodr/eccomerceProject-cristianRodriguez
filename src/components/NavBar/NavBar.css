@@ -1,0 +1,22 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav__crumbs {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.6rem;
+
+}
+
+.nav__crumbs a {
+    text-decoration: none;
+    font-weight: 700;
+}

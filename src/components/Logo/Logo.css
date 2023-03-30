@@ -1,0 +1,13 @@
+.helmet {
+    display: flex;
+    align-items: flex-end
+}
+
+.helmet__title {
+    font-size: 2.3rem;
+
+}
+
+.helmet__logo {
+    width: 5rem;
+}
