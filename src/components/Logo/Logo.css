@@ -1,6 +1,6 @@
 .helmet {
     display: flex;
-    align-items: flex-end
+    align-items: baseline;
 }
 
 .helmet__title {
@@ -9,5 +9,5 @@
 }
 
 .helmet__logo {
-    width: 5rem;
+    width: 4rem;
 }
