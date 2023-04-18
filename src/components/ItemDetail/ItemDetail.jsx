@@ -18,7 +18,7 @@ export const ItemDetail = ({id, name, img, category, description, price, stock})
                 </div>
                 <section>
                     <p className={style.letter}>Categoria: <span className={style.paragraph}>{category}</span> </p>
-                    <p className={style.letter}>Descripción: <span className={style.paragraph}>{description}</span>}</p>
+                    <p className={style.letter}>Descripción: <span className={style.paragraph}>{description}</span></p>
                     <p className={style.letter}>Precio: <span className={style.paragraph}>${price}</span></p>
                     <p className={style.letter}>Stock Disponible: <span className={style.paragraph}>{stock}</span></p>
                 </section>
