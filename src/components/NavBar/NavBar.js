@@ -1,24 +1,24 @@
 import {CartWidget} from "../CartWidget/CartWidget";
 import {Logo} from "../Logo/Logo";
 import "./NavBar.css"
+import {Link, NavLink} from "react-router-dom";
 
 function NavBar() {
     return (
         <>
             <nav className="nav">
-                <Logo/>
                 <div className="nav__menu">
-                    <div>
-                        <ul>
-                            <li className="nav__crumbs"><a href="#">Inicio</a></li>
-                            <li className="nav__crumbs"><a href="#">Tienda</a></li>
-                            <li className="nav__crumbs"><a href="#">Blog</a></li>
-                            <li className="nav__crumbs"><a href="#">Contáctenos</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <CartWidget/>
-                    </div>
+                    <Link to={'/'}>
+                        <Logo/>
+                    </Link>
+                        <div className="navLink">
+                            <NavLink to={`/category/Kov`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Kov</NavLink>
+                            <NavLink to={`/category/Bex`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Bex</NavLink>
+                            <NavLink to={`/category/Cafe Racer`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Cafe Racer</NavLink>
+                        </div>
+                </div>
+                <div>
+                    <CartWidget />
                 </div>
             </nav>
         </>

@@ -1,22 +1,22 @@
+.navLink {
+    display: flex;
+    gap: 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
 
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    margin-top: 5px;
 }
 
 .nav__menu {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline
 }
 
-.nav__crumbs {
-    display: inline-block;
-    margin: 1rem;
-    font-size: 1.6rem;
 
-}
-
-.nav__crumbs a {
-    text-decoration: none;
-    font-weight: 700;
-}

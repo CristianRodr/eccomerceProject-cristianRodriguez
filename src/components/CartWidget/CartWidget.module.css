@@ -1,0 +1,29 @@
+.control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 10px 4px 5px;
+    background-color: #e87171;
+    border-radius: 50px;
+}
+
+.Cart__Widget {
+    width: 3rem;
+    margin-left: 7px;
+}
+
+.letter {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.count {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffff;
+    padding: 0 10px 0 10px;
+    border-radius: 50px;
+    background-color: #ff4343;
+}
+
+
